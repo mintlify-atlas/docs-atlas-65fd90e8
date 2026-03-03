@@ -1,0 +1,263 @@
+{
+  "projectType": "framework",
+  "projectName": "Django",
+  "projectDescription": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+  "theme": "linden",
+  "primaryColor": "#0c4b33",
+  "lightColor": "#44b78b",
+  "darkColor": "#092e20",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "quickstart",
+              "tutorial"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/models",
+              "concepts/views",
+              "concepts/templates",
+              "concepts/forms",
+              "concepts/urls"
+            ]
+          },
+          {
+            "group": "The Model Layer",
+            "pages": [
+              "models/overview",
+              "models/fields",
+              "models/queries",
+              "models/relationships",
+              "models/migrations",
+              "models/managers"
+            ]
+          },
+          {
+            "group": "The View Layer",
+            "pages": [
+              "views/overview",
+              "views/function-based",
+              "views/class-based",
+              "views/generic-views",
+              "views/middleware"
+            ]
+          },
+          {
+            "group": "The Template Layer",
+            "pages": [
+              "templates/overview",
+              "templates/language",
+              "templates/built-in-tags",
+              "templates/custom-tags"
+            ]
+          },
+          {
+            "group": "Forms",
+            "pages": [
+              "forms/overview",
+              "forms/fields",
+              "forms/validation",
+              "forms/modelforms"
+            ]
+          },
+          {
+            "group": "Advanced Topics",
+            "pages": [
+              "advanced/authentication",
+              "advanced/caching",
+              "advanced/sessions",
+              "advanced/signals",
+              "advanced/async",
+              "advanced/testing",
+              "advanced/deployment"
+            ]
+          },
+          {
+            "group": "Database",
+            "pages": [
+              "database/overview",
+              "database/transactions",
+              "database/aggregation",
+              "database/optimization"
+            ]
+          },
+          {
+            "group": "Admin Interface",
+            "pages": [
+              "admin/overview",
+              "admin/actions",
+              "admin/customization"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "security/overview",
+              "security/csrf",
+              "security/clickjacking",
+              "security/best-practices"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Core APIs",
+            "pages": [
+              "api/settings",
+              "api/applications",
+              "api/exceptions"
+            ]
+          },
+          {
+            "group": "Models API",
+            "pages": [
+              "api/models/fields",
+              "api/models/querysets",
+              "api/models/instances",
+              "api/models/meta"
+            ]
+          },
+          {
+            "group": "Views API",
+            "pages": [
+              "api/views/generic",
+              "api/views/mixins",
+              "api/request-response"
+            ]
+          },
+          {
+            "group": "Forms API",
+            "pages": [
+              "api/forms/fields",
+              "api/forms/widgets",
+              "api/forms/validation"
+            ]
+          },
+          {
+            "group": "Templates API",
+            "pages": [
+              "api/templates/builtins",
+              "api/templates/api"
+            ]
+          },
+          {
+            "group": "Management Commands",
+            "pages": [
+              "api/django-admin",
+              "api/custom-commands"
+            ]
+          },
+          {
+            "group": "Contrib Packages",
+            "pages": [
+              "api/contrib/admin",
+              "api/contrib/auth",
+              "api/contrib/contenttypes",
+              "api/contrib/sessions",
+              "api/contrib/messages",
+              "api/contrib/staticfiles",
+              "api/contrib/gis"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "How-To Guides",
+        "groups": [
+          {
+            "group": "Common Tasks",
+            "pages": [
+              "howto/static-files",
+              "howto/custom-model-fields",
+              "howto/custom-template-tags",
+              "howto/custom-management-commands",
+              "howto/writing-migrations",
+              "howto/outputting-csv",
+              "howto/outputting-pdf"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "howto/deployment/overview",
+              "howto/deployment/wsgi",
+              "howto/deployment/asgi",
+              "howto/deployment/checklist"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Contributing",
+        "groups": [
+          {
+            "group": "Contributing",
+            "pages": [
+              "contributing/overview",
+              "contributing/bugs-and-features",
+              "contributing/writing-code",
+              "contributing/writing-documentation"
+            ]
+          },
+          {
+            "group": "Internals",
+            "pages": [
+              "internals/organization",
+              "internals/release-process",
+              "internals/security",
+              "internals/deprecation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Object-Relational Mapper (ORM)",
+    "Automatic admin interface",
+    "URL routing and views",
+    "Template engine",
+    "Form handling and validation",
+    "Authentication system",
+    "Database migrations",
+    "Internationalization",
+    "Security features (CSRF, XSS, SQL injection protection)",
+    "Caching framework",
+    "GeoDjango for geographic applications",
+    "Class-based and function-based views"
+  ],
+  "publicApiSurface": [
+    "django.db.models.Model",
+    "django.views.View",
+    "django.views.generic",
+    "django.forms.Form",
+    "django.forms.ModelForm",
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.urls.path",
+    "django.urls.include",
+    "django.http.HttpRequest",
+    "django.http.HttpResponse",
+    "django.template.Template",
+    "django.conf.settings",
+    "django.core.management.BaseCommand",
+    "django.db.transaction",
+    "django.core.cache",
+    "django.core.mail",
+    "django.shortcuts.render",
+    "django.shortcuts.redirect",
+    "django.shortcuts.get_object_or_404"
+  ]
+}
